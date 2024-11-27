@@ -1,0 +1,39 @@
+*{
+  font: 16px BrandonText, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .cart-button{
+  background-color: black;
+  color:#ffff;
+  padding: 6px 24px;
+  border-radius: 5px;
+}
+.Nclick{
+ background-color:#fff;
+ color: #000;
+ padding: 6px 24px;
+ border-radius: 5px;
+}
+.pictures{
+align-items: center;
+flex-direction:column;
+display: flex;
+margin:10px;
+}
+.description-grid{
+  margin: 10px;
+
+ 
+  
+}
+span{
+  font-weight: bold;
+}
+.buttons-grid{
+  margin: 10px ;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+}

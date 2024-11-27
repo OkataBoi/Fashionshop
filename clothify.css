@@ -1,0 +1,44 @@
+*{
+
+  font-family:sans-serif;
+}
+
+body{
+ background: url(overallc.webp);
+
+}
+
+
+.logo{
+  display: flex;
+ justify-content: center; 
+ color:#000;
+ font-size:70px;
+}
+header ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  text-transform: uppercase;
+  transform: translateY(-50%);
+  
+}
+
+Header ul a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+Header ul::after{
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
